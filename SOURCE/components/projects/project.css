@@ -1,0 +1,98 @@
+.course_image{
+    width:100%;/* of its parent width*/
+    display:block;
+    object-fit: cover;
+}
+
+.courses{    
+    margin-top: 1rem;
+    /* background: linear-gradient(10deg, rgb(247, 186, 44), #efc16b); */
+    /* background: linear-gradient(-90deg, #42b8eb, transparent); */
+    /* background: var(--color-bg2); */
+    height: 100vh;
+}
+
+
+.courses h2{
+    font-family: 'Archivo';
+    color:rgb(255, 0, 195);
+    font-size: 10vh;
+    font-style: bold;
+    /* text-decoration:dotted underline; */
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+
+.courses_container{
+        
+    width: 75vw;
+    margin:0 auto;
+    /* puts things in middle */
+    
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    border: 0px none rgba(100, 100, 100, 0);
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow:
+    inset 0px -3px 10px 0px rgba(255, 255, 255, 0.15),
+    inset 0px -5px 18px 0px rgba(255, 255, 255, 0.15),
+    inset 0px 6px 12px 0px rgba(255, 255, 255, 0.15),
+    inset 0px 3px 3px 0px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+}
+
+.course{
+    background: var(--color-bg);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    border: 0px none rgba(100, 100, 100, 0);
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow:
+    inset 0px -3px 10px 0px rgba(255, 255, 255, 0.15),
+    inset 0px -5px 18px 0px rgba(255, 255, 255, 0.15),
+    inset 0px 6px 12px 0px rgba(255, 255, 255, 0.15),
+    inset 0px 3px 3px 0px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+}
+
+.course:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+    border: 3px solid rgb(248, 0, 132);
+  border-radius: 0px;
+  /* background: linear-gradient(
+    268deg,
+    rgba(20, 19, 19, 1) 0%,
+    rgba(255, 154, 120, 0.1) 0%,
+    rgba(23, 23, 22, 1) 0%,
+    rgba(164, 179, 255, 0.1) 97%
+  ); */
+  /* background: var(--color-bg2); */
+  box-shadow:
+    inset 0px 5px 5px 0px rgba(255, 255, 255, 0.1),
+    inset 0px -5px 5px 0px rgba(164, 179, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.course_info{
+    padding: 2rem;
+    font-size:larger ;
+}
+
+.course_info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+.course h4{
+  margin-bottom: 2rem;
+}
