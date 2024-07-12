@@ -7,7 +7,7 @@ import icn3 from '../../assets/tic tac toe.jpg';
 const Project = () => {
   return (
     <div>
-        <section class="courses">
+        <section class="courses" id="project">
             <h2>My Projects</h2>
             <div class="container courses_container">
                 <article class="course">
