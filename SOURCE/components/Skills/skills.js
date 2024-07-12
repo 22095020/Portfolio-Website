@@ -13,7 +13,7 @@ const Skills = () => {
 
   return (
     // <div className='skillls'>these are skills</div>
-    <section className='qualification section'>
+    <section className='qualification section' id='skills'>
         <h2 className='section_title'>About</h2>
         {/* <span className='section_subtitle'>My Personal Journey</span> */}
         
