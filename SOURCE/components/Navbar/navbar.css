@@ -1,0 +1,60 @@
+:root{
+ --color-bg2:linear-gradient(90deg,#fc05fc,rgb(248, 0, 132));
+}
+
+.navbar{
+    height:5rem;
+    width:100vw;
+    max-width: 75rem;
+    margin:0 auto;
+    padding: 1rem 2rem;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+    z-index:3;  /* Z index >1 will keep it above everything*/
+}
+
+.logo{
+    object-fit: cover; /* maintains the hright and width ration as of original image*/
+    height:4rem;
+    width: 4rem;
+}
+
+.desktopMenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover{
+    color:yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px ridge yellow;
+    
+    
+}
+
+.desktopMenuBtn{
+    border: none;
+    background: var(--color-bg2);
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: black;
+}
+
+.desktopMenuBtn:hover{
+    
+    border: 2px solid orangered;
+    background: transparent;
+    color: azure;
+
+}
+
+.active{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px ridge yellow;
+}
